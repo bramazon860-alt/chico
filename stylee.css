@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0C0B08;
+  color: white;
+}
+
+section {
+  height: 90rem;
+}
+
+.bosh1_nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.bosh1_nav span {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.bosh1_nav h1 {
+  font-family: "Almendra SC", serif;
+  letter-spacing: 5px;
+}
+.bosh1_nav .nav_span2 #p {
+  border-left: 2px solid gray;
+  padding-left: 20px;
+}
+
+.bosh2 {
+  height: 30em;
+  width: 75%;
+  margin: 20px auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+.bosh2_box1 {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 8em;
+  padding-left: 50px;
+  position: relative;
+}
+.bosh2_box1 h1 {
+  width: 95%;
+  font-size: 4.4rem;
+  font-family: "Almendra", serif;
+  font-style: normal;
+  color: #DCCA87;
+}
+.bosh2_box1 p {
+  width: 82%;
+  color: #AAAAAA;
+}
+.bosh2_box1 img {
+  width: 30px;
+  height: 10px;
+}
+.bosh2_box1 button {
+  padding: 10px 25px;
+  border: none;
+  background-color: #DCCA87;
+}
+
+.bosh2_box2 {
+  position: relative;
+}
+.bosh2_box2 .bosh2_card1 {
+  background-color: #DCCA87;
+  height: 18rem;
+  width: 70%;
+  position: absolute;
+  top: 30px;
+  right: -18px;
+}
+.bosh2_box2 .bosh2_card2 {
+  background-color: #DCCA87;
+  height: 18rem;
+  width: 70%;
+  position: absolute;
+  bottom: -41px;
+  left: -1px;
+}
+.bosh2_box2 img {
+  width: 95%;
+  height: 29rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 45px;
+  left: 20px;
+  bottom: 5px;
+  z-index: 3;
+}
+
+.bosh2_text1 {
+  position: absolute;
+  bottom: 9rem;
+  left: -7em;
+  rotate: -90deg;
+  display: flex;
+  gap: 30px;
+}
+
+.bosh2_text2 {
+  display: flex;
+  position: absolute;
+  left: 34em;
+  bottom: -9em;
+  color: #DCCA87;
+  font-size: 0.8rem;
+}
+
+.bosh2_text3 {
+  right: 0px;
+  bottom: -9em;
+}
+
+.bosh3 {
+  margin-top: 15em;
+  height: 40em;
+  background-color: burlywood;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 3fr 1fr 3fr;
+}
+
+.bosh3_box {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: aqua;
+}
+.bosh3_box img {
+  width: 30px;
+  height: 1em;
+}
+.bosh3_box button {
+  padding: 10px 25px;
+  background-color: #DCCA87;
+  border: none;
+}
+
+.bosh3_box1 {
+  align-items: end;
+  text-align: end;
+}
+
+/*# sourceMappingURL=stylee.css.map */
