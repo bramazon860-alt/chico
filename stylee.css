@@ -11,6 +11,7 @@ body {
 
 section {
   height: 90rem;
+  flex-wrap: wrap;
 }
 
 .bosh1_nav {
@@ -84,6 +85,9 @@ section {
   position: absolute;
   top: 30px;
   right: -18px;
+}
+.bosh2_box2 .bosh2_card1 p {
+  display: none;
 }
 .bosh2_box2 .bosh2_card2 {
   background-color: #DCCA87;
@@ -187,6 +191,9 @@ section {
   height: 48em;
   object-fit: contain;
   transform: rotate(90deg);
+}
+.bosh3_box2 .bosh3_img04 {
+  display: none;
 }
 
 .bosh4 {
@@ -1108,6 +1115,540 @@ bosh44 {
 .bosh13_box2_card4 p {
   color: #AAAAAA;
   font-size: 0.8rem;
+}
+
+@media (max-width: 1000px) {
+  section {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  section .bosh1_nav {
+    display: flex;
+    flex-direction: column;
+    color: rgb(119, 2, 2);
+  }
+  section .bosh1_nav h1 {
+    font-size: 6rem;
+  }
+  section .bosh1_nav span {
+    color: blueviolet;
+    flex-direction: column;
+    left: 30px;
+    top: 60px;
+    display: none;
+  }
+  section .bosh2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    height: 16rem;
+    padding: 0;
+  }
+  section .bosh2 h1 {
+    font-size: 3rem;
+  }
+  section .bosh2_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  section .bosh2_card1 {
+    display: flex;
+    background-color: #5C4033;
+    border-radius: 90px;
+    position: fixed;
+    left: 9rem;
+    right: 10rem;
+    background-image: url(./media/card003.jpg);
+    background-size: cover;
+  }
+  section .bosh2_card2 {
+    display: none;
+    gap: 20px;
+    background-color: #5C4033;
+    background-color: black;
+    border-radius: 10px;
+  }
+  section img {
+    width: 70%;
+    height: 10rem;
+    display: none;
+  }
+  section .bosh3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    padding: 0;
+  }
+  section .bosh3 .bosh3_box {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  section .bosh3 .bosh3_box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 10rem;
+  }
+  section .bosh3 .bosh3_box2 .bosh3_img04 {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: rotate(0deg);
+    left: 0rem;
+    top: -13rem;
+    bottom: 0rem;
+  }
+  section .bosh4 {
+    display: flex;
+    flex-direction: column;
+  }
+  section .bosh4 .bosh4_box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+  section .bosh4 .bosh4_box2 input {
+    padding: 12px 40px;
+  }
+  section .bosh5 {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    text-align: end;
+    justify-content: center;
+    color: #E8B28C;
+    gap: 20px;
+    padding: 50px;
+  }
+  section .bosh5 span h1 {
+    font-size: 2rem;
+  }
+  section .bosh7 {
+    gap: 30px;
+  }
+  section .bosh7 .bosh7_card1 {
+    background-color: #E8B28C;
+    transform: translate(100px);
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  section .bosh7 .bosh7_card1:hover {
+    transform: translate(10px);
+    transition: 0.5s;
+    background-image: url(./media/texture-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  section .bosh7 .bosh7_card2 {
+    background-color: #E8B28C;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  section .bosh7 .bosh7_card2:hover {
+    transform: translateX(-100px);
+    transition: 0.5s;
+    background-image: url(./media/ink-01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  section .bosh7 .bosh7_box2 b {
+    display: none;
+  }
+  section .bosh8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 30px;
+  }
+  section .bosh8 .bosh8_box {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+  }
+  section .bosh8 .bosh8_box h2 {
+    display: none;
+  }
+  section .bosh8 .bosh8_box img {
+    display: none;
+  }
+  section .bosh9 .bosh9_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .bosh9 .bosh9_box img {
+    width: 30%;
+    height: 30%;
+    display: flex;
+  }
+  section .bosh10 {
+    width: 100%;
+  }
+  section .bosh10 img {
+    display: flex;
+  }
+  section .bosh10 .bosh10_box1 {
+    padding: 0 30px;
+  }
+  section .bosh10 .bosh10_box1 .bosh10_card {
+    padding-left: 100px;
+  }
+  section .bosh10 .bosh10_box1 .bosh10_card img {
+    display: none;
+  }
+  section .bosh10 .bosh10_box2 img {
+    width: 80%;
+    height: 67%;
+  }
+  section .bosh10 .bosh10_box2 p {
+    font-size: 15rem;
+    color: whitesmoke;
+    bottom: 50px;
+    left: 8px;
+  }
+  section .bosh11 {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: 280px 280px 280px;
+    gap: 20px;
+  }
+  section .bosh11 img {
+    display: flex;
+  }
+  section .bosh11 .bosh11_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  section .bosh11 .bosh11_box1 img {
+    display: none;
+  }
+  section .bosh11 .bosh11_box img {
+    height: 50%;
+  }
+  section .bosh11 .bosh11_box5 img {
+    display: none;
+  }
+}
+@media screen and (max-width: 460px) {
+  section {
+    background-color: blueviolet;
+  }
+  section .bosh1_nav h1 {
+    font-size: 3.3rem;
+  }
+  section .bosh2 .bosh2_box1 {
+    gap: 30px;
+  }
+  section .bosh2 .bosh2_box1 h1 {
+    font-size: 2rem;
+  }
+  section .bosh2 .bosh2_box1 button {
+    padding: 8px 10px;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_card1 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    border-radius: 20px;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_card1 p {
+    display: none;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_card1:hover {
+    transform: scale(1.2);
+    transition: 0.9s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_card1:hover p {
+    display: flex;
+    font-size: 5rem;
+    color: #000000;
+    font-weight: 900;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_text1 {
+    display: none;
+  }
+  section .bosh2 .bosh2_box2 .bosh2_text2 {
+    display: none;
+  }
+  section .bosh3 {
+    padding-top: 30px;
+    background-color: #5C4033;
+    height: 28rem;
+    gap: 12rem;
+  }
+  section .bosh3 .bosh3_box1 {
+    margin: 0;
+    padding: 0;
+  }
+  section .bosh3 .bosh3_box1 button {
+    padding: 8px 10px;
+  }
+  section .bosh3 .bosh3_box2 {
+    height: 5rem;
+    margin: 0;
+    padding: 0;
+  }
+  section .bosh3 .bosh3_box3 {
+    height: 0px;
+  }
+  section .bosh4 .bosh4_box {
+    gap: 10px;
+    box-shadow: rgb(23, 99, 161) 0px 20px 30px -10px;
+  }
+  section .bosh4 .bosh4_box span {
+    gap: 20px;
+  }
+  section .bosh4 .bosh4_box span h1 {
+    font-size: 2rem;
+  }
+  section .bosh4 .bosh4_tugma button {
+    padding: 8px 10px;
+  }
+  section .bosh5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background-size: cover;
+  }
+  section .bosh5 img {
+    display: none;
+  }
+  section .bosh5 span {
+    padding: 0;
+  }
+  section .bosh5 span h1 {
+    color: white;
+    font-size: 2rem;
+  }
+  section .bosh6 {
+    padding: 0;
+    width: 100%;
+    height: 54rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: 0;
+    gap: 10px;
+  }
+  section .bosh6 .bosh6_text0 {
+    padding: 0;
+    margin: 0;
+    height: 0;
+  }
+  section .bosh6 .bosh6_box {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+  section .bosh6 .bosh6_box .bosh6_card {
+    height: 28rem;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  section .bosh6 .bosh6_box .bosh6_card h1 {
+    font-size: 1.4rem;
+  }
+  section .bosh6 .bosh6_box .bosh6_card .bosh6_asosiy h2 {
+    font-size: 2rem;
+  }
+  section .bosh6 .bosh6_box .bosh6_card3 {
+    padding: 0 20px 0 0;
+  }
+  section .bosh6 .bosh6_box .bosh6_card4 {
+    margin-top: 6.5rem;
+    height: 5rem;
+    grid-column: 1/3;
+  }
+  section .bosh6 .bosh6_box .bosh6_card2 {
+    display: none;
+  }
+  section .bosh7 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    height: 35rem;
+    gap: 0;
+  }
+  section .bosh7 .bosh7_box1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  section .bosh7 .bosh7_box1 .bosh7_card1 {
+    width: 30%;
+    height: 30%;
+    border: 1xp solid #5C4033;
+  }
+  section .bosh7 .bosh7_box1 .bosh7_card2 {
+    width: 30%;
+    height: 30%;
+    transform: translateY(10px);
+    border: 1xp solid #5C4033;
+  }
+  section .bosh7 .bosh7_box1 .bosh7_card2:hover {
+    transform: translateX(50px);
+  }
+  section .bosh7 .bosh7_box1 img {
+    display: none;
+  }
+  section .bosh7 .bosh7_box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  section .bosh7 .bosh7_box2 h1 {
+    font-size: 2rem;
+  }
+  section .bosh8 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+  section .bosh8 .bosh8_box1 {
+    grid-column: 1;
+  }
+  section .bosh8 .bosh8_box1 h1 {
+    font-size: 2rem;
+  }
+  section .bosh10 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 45rem;
+  }
+  section .bosh10 .bosh10_box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  section .bosh10 .bosh10_box1 .bosh10_card {
+    padding: 0;
+  }
+  section .bosh10 .bosh10_box1 .bosh_10_card_bosh {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  section .bosh10 .bosh10_box1 .bosh_10_card_bosh .bosh10_card2 {
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    background-color: #5C4033;
+  }
+  section .bosh10 .bosh10_box1 .bosh_10_card_bosh .bosh10_card2 img {
+    width: 50px;
+    height: 50px;
+  }
+  section .bosh10 .bosh10_box2 {
+    display: none;
+  }
+  section .bosh11 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    padding-top: 10px;
+  }
+  section .bosh11 .bosh11_box1 {
+    grid-column: 1;
+  }
+  section .bosh11 .bosh11_box5 {
+    grid-column: 1;
+  }
+  section .bosh11 .bosh11_box5 button {
+    padding: 8px 10px;
+  }
+  section .bosh11 .bosh11_box {
+    width: 100%;
+    text-align: center;
+    height: 30rem;
+  }
+  section .bosh12 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    gap: 20px;
+    padding: 0;
+  }
+  section .bosh12 .bosh12_box1 {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  section .bosh12 .bosh12_box1 button {
+    padding: 8px 10px;
+  }
+  section .bosh13 {
+    display: flex;
+    height: 60rem;
+  }
+  section .bosh13 .bosh13_box1 {
+    text-align: center;
+    top: 20px;
+  }
+  section .bosh13 .bosh13_box1 .bosh13_card input {
+    padding: 5px 30px;
+  }
+  section .bosh13 .card_bosh13 {
+    width: 100%;
+  }
+  section .bosh13 .card_bosh13 .bosh13_box2_card1 {
+    padding: 0;
+  }
+  section .bosh13 .bosh13_box2 {
+    padding-top: 20rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  section .bosh13 .bosh13_box2 .bosh13_box2_card4 {
+    grid-column: 1;
+  }
 }
 
 /*# sourceMappingURL=stylee.css.map */
